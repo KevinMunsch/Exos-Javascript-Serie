@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+ <form class="" action="index.html" method="post">
+   <label>Votre âge</label>
+   <input type="text" id="text" name="" value="">
+   <button type="button" id="bouton" name="button">Calculer</button>
+ </form>
+
+<script type="text/javascript">
+
+var a = document.getElementById('bouton');
+a.addEventListener('click', calcul);
+
+function calcul (){
+
+  var b = document.getElementById('text').value;
+  var c = b*365;
+  document.write("Vous avez vécu "+c+" jours.")
+}
+
+</script>
+
+
+  </body>
+</html>

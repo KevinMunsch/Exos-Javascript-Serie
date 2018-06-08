@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+<form class="" action="index.html" method="post">
+  <label for="">Veuillez rentrer un nombre compris entre 1 et 5</label>
+  <input type="number" id="nombre" name="" value="">
+  <button type="button" id='bouton' name="button">Cliquez</button>
+</form>
+
+<script type="text/javascript">
+
+var a = document.getElementById('bouton');
+a.addEventListener("click", test);
+
+function test(){
+
+var b = document.getElementById('nombre').value;
+
+if (b < 5) {
+
+  if (b == 1) {
+
+    document.write("un");
+  }
+
+  else if (b == 2) {
+
+    document.write("deux");
+
+  }
+  else if (b == 3) {
+
+    document.write("trois");
+
+  }
+  else if (b == 4) {
+
+    document.write("quatre");
+
+  }
+  else if (b == 5) {
+
+    document.write("cinq");
+
+  }
+
+}else {
+
+  alert("Veuillez entrer une valeur conform !");
+}
+
+
+
+
+};
+
+
+
+</script>
+
+
+
+  </body>
+</html>

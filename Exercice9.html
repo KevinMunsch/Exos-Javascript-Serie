@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+<form class="" action="index.html" method="post">
+  <label for="">Element pour la liste de courses</label>
+  <input type="text" id='text' name="" value="">
+  <button type="button" id='bouton' name="button">Ajouter</button>
+
+</form>
+
+<script type="text/javascript">
+
+var liste_course =['tomate',' salade',' ognion'];
+liste_course.sort();
+
+var a = document.getElementById('bouton');
+a.addEventListener("click",ajouter);
+
+function ajouter() {
+
+  var ajout = document.getElementById('text').value;
+
+  if (ajout == 0) {
+    alert("Veuillez renseigner le champ !");
+  }
+
+  else {
+
+  var nouveau = liste_course.splice(1,0,ajout);
+
+  alert("Le mot "+ajout+" a bien été ajouté à votre liste");
+
+  console.log(liste_course);
+
+  var effacer = document.getElementById('text').value=""
+}
+}
+
+console.log(ajouter);
+console.log(bouton);
+
+
+</script>
+
+
+  </body>
+</html>

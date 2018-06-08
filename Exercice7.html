@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+<form class="" action="index.html" method="post">
+  <button type="button" id='bouton' name="button">CLIQUEZ ICI !</button>
+</form>
+
+<script type="text/javascript">
+
+var b = document.getElementById('bouton');
+b.addEventListener("click", test);
+
+function test(){
+
+var a = document.createElement('img');
+var c = confirm("Etes vous heureux ?");
+
+  if (c == true) {
+
+    a.setAttribute("src","https://use.fontawesome.com/releases/v5.0.13/svgs/solid/smile.svg");
+  }else{
+    a.setAttribute("src","https://use.fontawesome.com/releases/v5.0.13/svgs/solid/frown.svg");
+  }
+  document.body.appendChild(a);
+};
+console.log(b);
+console.log(test);
+
+</script>
+
+
+
+
+  </body>
+</html>

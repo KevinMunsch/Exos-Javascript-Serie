@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <form class="" action="index.html" method="post">
+      <label for="">adresse de votre image</label>
+      <input type="text" id='text' name="" value="">
+      <button type="button" id='bouton' name="button">Afficher</button>
+    </form>
+
+</form>
+
+<script type="text/javascript">
+
+
+var b = document.getElementById('bouton');
+b.addEventListener("click", affiche);
+
+function affiche() {
+
+  var a= document.getElementById('text').value;
+  var c = document.createElement('img');
+  c.setAttribute("src",a);
+  document.body.appendChild(c);
+
+
+
+}
+
+</script>
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+<form class="" action="index.html" method="post">
+  <button type="button" name="button">Générer un nombre aléatoire entre 1 et 10</button>
+  <label for="">Essayez de deviner le nombre</label>
+  <input type="text" id='text' name="" value="">
+  <button type="button" name="button">VALIDER</button>
+</form>
+
+
+<script type="text/javascript">
+
+
+var Aleatoire;
+
+var a = document.getElementsByTagName('button')[0];
+a.addEventListener('click',un_nombre);
+
+function random_nombre(min,max){
+
+return Math.floor(Math.random()*(max-min +1)) + min;
+}
+
+function un_nombre(){
+  Aleatoire = random_nombre(1,10);
+  console.log(Aleatoire);
+}
+
+
+
+var b = document.getElementsByTagName('button')[1];
+b.addEventListener('click',essay);
+
+function essay(){
+
+var c = document.getElementById('text').value;
+
+if (c < Aleatoire) {
+
+    alert("Trop petit !");
+}
+
+else if (c = Aleatoire) {
+
+    alert("Gagné!");
+}
+else {
+
+    alert("Trop grand !");
+
+}
+
+};
+
+</script>
+
+
+
+
+  </body>
+</html>

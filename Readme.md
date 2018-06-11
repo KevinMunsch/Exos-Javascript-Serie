@@ -41,7 +41,7 @@
 * exemple avec 21 et 45 : "Vous avez vécu 7665 jours. Il y a encore 8760 jours avant vos 45 ans."
 * complément : si l'âge visé est plus petit que l'âge actuel, signaler l'erreur (alert ou affichage dans la page)
 
-[PREVIEW]()
+[PREVIEW](https://htmlpreview.github.io/?https://github.com/KevinMunsch/Exos-Javascript-Serie/blob/master/Exercice6.html)
 
 ### EXERCICE 7
 * documentation : étudiez le fonctionnement de confirm() en javascript
@@ -49,14 +49,14 @@
 * si l'utilisateur clique sur oui, afficher une image de smiley avec "un sourire..."
 * sinon, afficher une autre image de smiley avec "un air triste..."
 
-[PREVIEW]()
+[PREVIEW](https://htmlpreview.github.io/?https://github.com/KevinMunsch/Exos-Javascript-Serie/blob/master/Exercice7.html)
 
 ### EXERCICE 8
 * demander un nombre entre 0 et 5 à l'utilisateur
 * si l'utilisateur n'entre pas un nombre entre 0 et 5, le signaler par une alert
 * si le nombre est valide, l'afficher en toutes lettres (1 => "un")
 
-[PREVIEW]()
+[PREVIEW](https://htmlpreview.github.io/?https://github.com/KevinMunsch/Exos-Javascript-Serie/blob/master/Exercice8.html)
 
 ### EXCERICE 9
 * créer une liste de courses
@@ -65,7 +65,7 @@
 * attention à vider le champ une fois le champ ajouté
 * attention à ne rien faire si le champ est vide
 
-[PREVIEW]()
+[PREVIEW](https://htmlpreview.github.io/?https://github.com/KevinMunsch/Exos-Javascript-Serie/blob/master/Exercice9.html)
 
 ### EXERCICE 10
 * définir un nombre à deviner (et pourquoi pas avec Math.random()?)
@@ -74,7 +74,7 @@
 * si le nombre de l'utilisateur est plus petit que celui à deviner, afficher "Trop petit !"
 * si le nombre est identique au nombre à deviner, afficher "Gagné!"
 
-[PREVIEW]()
+[PREVIEW](https://htmlpreview.github.io/?https://github.com/KevinMunsch/Exos-Javascript-Serie/blob/master/Exercice10.html)
 
 ### EXERCICE 11
 * reprendre l'exercice précédent

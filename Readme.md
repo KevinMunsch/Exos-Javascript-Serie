@@ -4,6 +4,8 @@
 * au clic sur un bouton, afficher le résultat de la multplication
 * exemple avec 4 et 5: "4 multiplié par 5 vaut 20"
 
+[PREVIEW](https://htmlpreview.github.io/?https://github.com/KevinMunsch/Exos-Javascript-Serie/blob/master/Exercice1.html)
+
 ### EXERCICE 2
 * créer un champ de texte
 * au clic sur un bouton,
